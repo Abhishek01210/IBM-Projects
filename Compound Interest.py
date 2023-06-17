@@ -1,0 +1,5 @@
+p=int(input("Enter The Principal Amount:"))
+t=int(input("Enter The Time:"))
+n=int(input("Enter Number Of Times Interest Is Applied Per Year:"))
+r=int(input("Enter Interest Rate:"))
+print("Compond Interest Is:",((p*(1+((r/100)/n)))**(n*t))-p)
